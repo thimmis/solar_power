@@ -29,16 +29,17 @@ def clean_time2(frame, col):
 def inverter_comp(df_in, date_list,key_list):
     main_df = pd.DataFrame()
     for day in date_list:
-        df = df_in[(df_in['DATE']== day)][-len(key_list):]
+        #Each inverter should be done producing by 7pm every day thus the daily yield shouldn't have increased
+        df = df_in[(df_in['DATE']== day)&(df_in.HOUR == 20)&(df_in.MINUTE==0)][-len(key_list):]
         df = df.drop(['DC_POWER','AC_POWER','TOTAL_YIELD'],axis= 1)
-        df = df[df['DAILY_YIELD']!=0]
         main_df = main_df.append(df,ignore_index=True)
     return main_df
 
 def inverter_comp_alt(df_in, date_list,key_list):
     main_df = pd.DataFrame()
     for day in date_list:
-        df = df_in[(df_in['DATE']== day) &(df_in.HOUR == 23)&(df_in.MINUTE==45)][-len(key_list):]
+        #Each inverter should be done producing by 7pm every day thus the daily yield shouldn't have increased
+        df = df_in[(df_in['DATE']== day) &(df_in.HOUR == 20)&(df_in.MINUTE==0)][-len(key_list):]
         df = df.drop(['DC_POWER','AC_POWER','TOTAL_YIELD'],axis= 1)
         df = df[df['DAILY_YIELD']!=0]
         main_df = main_df.append(df,ignore_index=True)
