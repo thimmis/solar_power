@@ -1,0 +1,234 @@
+gen1_p:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/Plant_1_Generation_Data.csv
+gen2_p:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/Plant_2_Generation_Data.csv
+gen1_w:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/Plant_1_Weather_Sensor_Data.csv
+gen2_w:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/Plant_2_Weather_Sensor_Data.csv
+station_1:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/Plant_1_Complete.csv
+station_2:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/Plant_2_Complete.csv
+all_stations:
+  type: pandas.CSVDataSet
+  filepath: data/02_intermediate/full_plant.csv
+daily_yield_ind:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/daily_ind_max.csv
+daily_yield_stns:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/daily_stns_max.csv
+daily_yield_all:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/daily_all_max.csv
+ac_power_ind:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/acp_rolling_96_ind.csv
+ac_power_all:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/acp_rolling_96_all.csv
+source_keys:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/source_keys.csv
+station_ids:
+  type: pandas.CSVDataSet
+  filepath: data/03_primary/station_ids.csv
+base_cat:
+  type: yaml.YAMLDataSet
+  filepath: ./conf/base/catalog.yml
+revised_cat:
+  type: yaml.YAMLDataSet
+  filepath: ./conf/base/catalog.yml
+  save_args:
+    sort_keys: false
+1BY6WEcLGh8j5v7_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/1BY6WEcLGh8j5v7_ARIMA/1BY6WEcLGh8j5v7_arima.pkl
+  versioned: 'true'
+1IF53ai7Xc0U56Y_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/1IF53ai7Xc0U56Y_ARIMA/1IF53ai7Xc0U56Y_arima.pkl
+  versioned: 'true'
+3PZuoBAID5Wc2HD_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/3PZuoBAID5Wc2HD_ARIMA/3PZuoBAID5Wc2HD_arima.pkl
+  versioned: 'true'
+7JYdWkrLSPkdwr4_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/7JYdWkrLSPkdwr4_ARIMA/7JYdWkrLSPkdwr4_arima.pkl
+  versioned: 'true'
+McdE0feGgRqW7Ca_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/McdE0feGgRqW7Ca_ARIMA/McdE0feGgRqW7Ca_arima.pkl
+  versioned: 'true'
+VHMLBKoKgIrUVDU_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/VHMLBKoKgIrUVDU_ARIMA/VHMLBKoKgIrUVDU_arima.pkl
+  versioned: 'true'
+WRmjgnKYAwPKWDb_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/WRmjgnKYAwPKWDb_ARIMA/WRmjgnKYAwPKWDb_arima.pkl
+  versioned: 'true'
+ZnxXDlPa8U1GXgE_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/ZnxXDlPa8U1GXgE_ARIMA/ZnxXDlPa8U1GXgE_arima.pkl
+  versioned: 'true'
+ZoEaEvLYb1n2sOq_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/ZoEaEvLYb1n2sOq_ARIMA/ZoEaEvLYb1n2sOq_arima.pkl
+  versioned: 'true'
+adLQvlD726eNBSB_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/adLQvlD726eNBSB_ARIMA/adLQvlD726eNBSB_arima.pkl
+  versioned: 'true'
+bvBOhCH3iADSZry_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/bvBOhCH3iADSZry_ARIMA/bvBOhCH3iADSZry_arima.pkl
+  versioned: 'true'
+iCRJl6heRkivqQ3_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/iCRJl6heRkivqQ3_ARIMA/iCRJl6heRkivqQ3_arima.pkl
+  versioned: 'true'
+ih0vzX44oOqAx2f_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/ih0vzX44oOqAx2f_ARIMA/ih0vzX44oOqAx2f_arima.pkl
+  versioned: 'true'
+pkci93gMrogZuBj_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/pkci93gMrogZuBj_ARIMA/pkci93gMrogZuBj_arima.pkl
+  versioned: 'true'
+rGa61gmuvPhdLxV_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/rGa61gmuvPhdLxV_ARIMA/rGa61gmuvPhdLxV_arima.pkl
+  versioned: 'true'
+sjndEbLyjtCKgGv_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/sjndEbLyjtCKgGv_ARIMA/sjndEbLyjtCKgGv_arima.pkl
+  versioned: 'true'
+uHbuxQJl8lW7ozc_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/uHbuxQJl8lW7ozc_ARIMA/uHbuxQJl8lW7ozc_arima.pkl
+  versioned: 'true'
+wCURE6d3bPkepu2_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/wCURE6d3bPkepu2_ARIMA/wCURE6d3bPkepu2_arima.pkl
+  versioned: 'true'
+z9Y9gH1T5YWrNuG_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/z9Y9gH1T5YWrNuG_ARIMA/z9Y9gH1T5YWrNuG_arima.pkl
+  versioned: 'true'
+zBIq5rxdHJRwDNY_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/zBIq5rxdHJRwDNY_ARIMA/zBIq5rxdHJRwDNY_arima.pkl
+  versioned: 'true'
+zVJPv84UY57bAof_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/zVJPv84UY57bAof_ARIMA/zVJPv84UY57bAof_arima.pkl
+  versioned: 'true'
+YxYtjZvoooNbGkE_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/YxYtjZvoooNbGkE_ARIMA/YxYtjZvoooNbGkE_arima.pkl
+  versioned: 'true'
+4UPUqMRk7TRMgml_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/4UPUqMRk7TRMgml_ARIMA/4UPUqMRk7TRMgml_arima.pkl
+  versioned: 'true'
+81aHJ1q11NBPMrL_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/81aHJ1q11NBPMrL_ARIMA/81aHJ1q11NBPMrL_arima.pkl
+  versioned: 'true'
+9kRcWv60rDACzjR_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/9kRcWv60rDACzjR_ARIMA/9kRcWv60rDACzjR_arima.pkl
+  versioned: 'true'
+Et9kgGMDl729KT4_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/Et9kgGMDl729KT4_ARIMA/Et9kgGMDl729KT4_arima.pkl
+  versioned: 'true'
+IQ2d7wF4YD8zU1Q_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/IQ2d7wF4YD8zU1Q_ARIMA/IQ2d7wF4YD8zU1Q_arima.pkl
+  versioned: 'true'
+LYwnQax7tkwH5Cb_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/LYwnQax7tkwH5Cb_ARIMA/LYwnQax7tkwH5Cb_arima.pkl
+  versioned: 'true'
+LlT2YUhhzqhg5Sw_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/LlT2YUhhzqhg5Sw_ARIMA/LlT2YUhhzqhg5Sw_arima.pkl
+  versioned: 'true'
+Mx2yZCDsyf6DPfv_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/Mx2yZCDsyf6DPfv_ARIMA/Mx2yZCDsyf6DPfv_arima.pkl
+  versioned: 'true'
+NgDl19wMapZy17u_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/NgDl19wMapZy17u_ARIMA/NgDl19wMapZy17u_arima.pkl
+  versioned: 'true'
+PeE6FRyGXUgsRhN_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/PeE6FRyGXUgsRhN_ARIMA/PeE6FRyGXUgsRhN_arima.pkl
+  versioned: 'true'
+Qf4GUc1pJu5T6c6_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/Qf4GUc1pJu5T6c6_ARIMA/Qf4GUc1pJu5T6c6_arima.pkl
+  versioned: 'true'
+Quc1TzYxW2pYoWX_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/Quc1TzYxW2pYoWX_ARIMA/Quc1TzYxW2pYoWX_arima.pkl
+  versioned: 'true'
+V94E5Ben1TlhnDV_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/V94E5Ben1TlhnDV_ARIMA/V94E5Ben1TlhnDV_arima.pkl
+  versioned: 'true'
+WcxssY2VbP4hApt_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/WcxssY2VbP4hApt_ARIMA/WcxssY2VbP4hApt_arima.pkl
+  versioned: 'true'
+mqwcsP2rE7J0TFp_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/mqwcsP2rE7J0TFp_ARIMA/mqwcsP2rE7J0TFp_arima.pkl
+  versioned: 'true'
+oZ35aAeoifZaQzV_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/oZ35aAeoifZaQzV_ARIMA/oZ35aAeoifZaQzV_arima.pkl
+  versioned: 'true'
+oZZkBaNadn6DNKz_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/oZZkBaNadn6DNKz_ARIMA/oZZkBaNadn6DNKz_arima.pkl
+  versioned: 'true'
+q49J1IKaHRwDQnt_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/q49J1IKaHRwDQnt_ARIMA/q49J1IKaHRwDQnt_arima.pkl
+  versioned: 'true'
+rrq4fwE8jgrTyWY_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/rrq4fwE8jgrTyWY_ARIMA/rrq4fwE8jgrTyWY_arima.pkl
+  versioned: 'true'
+vOuJvMaM2sgwLmb_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/vOuJvMaM2sgwLmb_ARIMA/vOuJvMaM2sgwLmb_arima.pkl
+  versioned: 'true'
+xMbIugepa2P7lBB_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/xMbIugepa2P7lBB_ARIMA/xMbIugepa2P7lBB_arima.pkl
+  versioned: 'true'
+xoJJ8DcxJEcupym_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/xoJJ8DcxJEcupym_ARIMA/xoJJ8DcxJEcupym_arima.pkl
+  versioned: 'true'
+4135001_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/4135001.0_ARIMA/4135001.0_arima.pkl
+  versioned: 'true'
+4136001_arima:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/4136001.0_ARIMA/4136001.0_arima.pkl
+  versioned: 'true'
